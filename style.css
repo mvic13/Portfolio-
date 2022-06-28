@@ -1,0 +1,139 @@
+
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    background-image: linear-gradient(
+        rgba(34, 69, 116, 0.3) 0%,
+        rgba(24, 97, 233, 0.6) 100%
+      );
+      border-bottom: 5px solid black;
+}
+
+.name_portfolio {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 0;
+
+}
+
+#profile_image {
+    border-radius: 50%;
+    width: 6%;
+    height: auto;
+    margin-bottom: auto;
+    margin-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+}
+header p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+.navigation {
+display: inline;
+   margin: 20px;
+   font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+
+body {
+    background-color: white;
+    
+}
+
+#about_me  {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#about_me h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#about_me p {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#about_me h2 {
+    font-size: 30px;
+    padding: 50px;
+    border-style: solid;
+    background-color: azure;
+}
+
+.Css_body {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin-bottom: 0;
+    background-color: gray;
+  
+}
+
+.Css_body p {
+    display: flex;
+    flex: auto;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+footer {
+    border: 10px solid black;
+    background-image: linear-gradient(
+        rgba(34, 69, 116, 0.3) 0%,
+        rgba(24, 97, 233, 0.6) 100%
+      );
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    header nav ul {
+        display: flex;
+        flex-direction: column; 
+
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    main,
+   .Css_body img {
+    width: "100px" height="200px"
+   }
+}
